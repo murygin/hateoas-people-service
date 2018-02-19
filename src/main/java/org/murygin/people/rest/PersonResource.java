@@ -17,4 +17,8 @@ public class PersonResource extends ResourceSupport {
     add(linkTo(PersonController.class).withRel("people"));
     add(linkTo(methodOn(PersonController.class).get(id)).withSelfRel());
   }
+
+  public Person getPerson() {
+    return person;
+  }
 }
