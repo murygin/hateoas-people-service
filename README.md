@@ -4,6 +4,8 @@ A simple REST service that shows the HATEOAS compliant output of data.
 This project contains source code that documents a question on stackoverflow:
 https://stackoverflow.com/questions/48863871/spring-boot-hateoas-output-fails
 
+Fix for the questions is now committed.
+
 ## Compile & Run
 
 Compile and run this example:
